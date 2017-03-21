@@ -21,7 +21,7 @@ body {
 a {
   color: #544173;
   text-decoration: none;
-}
+}si
 
 h1, h2 {
   font-family: "Vollkorn", serif;
@@ -741,6 +741,7 @@ Javascript disabled
   visibility: visible;
   height: auto;
   background-color: #dadcdc;
+  color: #333;
 }
 .no-js .cd-fold-content.single-page > * {
   opacity: 1;
@@ -751,6 +752,11 @@ Javascript disabled
   transform: translateY(0);
 }
 
+/* -------------------------------- 
+
+Nav
+
+-------------------------------- */
 .cd-nav-trigger {
   position: fixed;
   z-index: 300;
