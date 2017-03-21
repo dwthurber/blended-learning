@@ -1,3 +1,4 @@
 collections:
   results:
+    layout: 'results.html'
     output: true
