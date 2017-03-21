@@ -1,4 +1,11 @@
 collections:
   results:
-    layout: 'results.html'
     output: true
+    
+defaults:
+  -
+    scope:
+      path: ""
+      type: "results"
+    values:
+      layout: "results"
