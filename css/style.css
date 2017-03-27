@@ -165,6 +165,7 @@ Main content
 -------------------------------- */
 .cd-main {
   overflow-x: hidden;
+  min-height: 100%;
 }
 .cd-main::before {
   /* never visible - this is used in jQuery to check the current MQ */
@@ -210,7 +211,9 @@ Main content
     transform: translateX(0);
   }
 }
-
+.cd-gallery {
+    min-height: 100%;
+}
 .cd-gallery::after {
   clear: both;
   content: "";
@@ -308,10 +311,16 @@ Main content
   border: 1px solid #ffffff;
 }
 @media only screen and (min-width: 1100px) {
-  .cd-item {
+    .cd-gallery {
+        width: 100%;
+        min-height: 100%;
+        height: 100%;
+        position: absolute;
+    }
+    .cd-item {
     width: 50%;
     float: left;
-    height: 520px;
+    height: 50%;
     -webkit-transition: -webkit-transform 0.5s 0.4s;
     -moz-transition: -moz-transform 0.5s 0.4s;
     transition: transform 0.5s 0.4s;
