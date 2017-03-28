@@ -106,5 +106,7 @@ jQuery(document).ready(function($){
             'scrollTop': gallery.offset().top
         });
     });
- 
+    
+//    Initiate lightgallery
+    $("#lightgallery").lightGallery();
 });
